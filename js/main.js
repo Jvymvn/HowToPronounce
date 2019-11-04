@@ -22,7 +22,8 @@ const getVoices = () => {
         //Set needed option attributes
         option.setAttribute('data-lang', voice.lang);
         option.setAttribute('data-name', voice.name);
-        if (option.textContent === "Google US English(en-US)") {
+        //Sets english as default selection
+        if (option.textContent === "Google US English(en-US)" || option.textContent === "Samantha(en-US)") {
             option.setAttribute('selected', 'selected');
         }
         voiceSelect.appendChild(option);
