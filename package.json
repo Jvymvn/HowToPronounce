@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://jvymvn.github.io/HowToPronounce",
+  "homepage": "https://jvymvn.github.io/howtopronounce",
   "dependencies": {
     "gh-pages": "^2.1.1"
   },
